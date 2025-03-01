@@ -1,0 +1,50 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Fichiers git
+.git/
+.gitignore
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Fichiers de développement
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers de système
+.DS_Store
+Thumbs.db
+
+# Environnement
+.env
+.env.local
+
+# Fichiers Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Fichiers de test
+test_*.py
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints 
