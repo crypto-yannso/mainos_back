@@ -1,0 +1,15 @@
+{
+  "topic": "Intelligence artificielle générative : applications pratiques",
+  "type_rapport": "analyse_marche",
+  "ton": "professionnel",
+  "longueur": "moyenne",
+  "format_sortie": ["markdown", "pdf"],
+  "benchmark_qualite": true,
+  "options_specifiques": {
+    "planner_provider": "google_genai",
+    "planner_model": "gemini-1.5-pro",
+    "writer_provider": "google_genai",
+    "writer_model": "gemini-1.5-pro",
+    "search_api": "perplexity"
+  }
+} 
